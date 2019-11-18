@@ -46,6 +46,7 @@ function SocialBar({ urls }) {
       {urls.map((url) => (
       <SocialIcon
         style={{ margin: "0 0.2em 0 0.2em", height: 30, width: 30 }}
+        target="_blank"
         url={url}
       />))}
     </SocialIconsDiv>
