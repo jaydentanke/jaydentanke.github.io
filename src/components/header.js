@@ -36,7 +36,7 @@ const StyledLink = styled(props => <Link {...props} />)`
 // Social Media Links
 const SocialIconsDiv = styled.div`
   display: flex;
-  justify-content: center
+  justify-content: center;
   margin: 0.2em 0 1em 0;
 `
 
